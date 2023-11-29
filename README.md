@@ -17,9 +17,17 @@ Navigate inside ch13Checkpoint to build the entire project.
 cd ch13Checkpoint
 ```
 
-To compile cLL.cpp the program, run `make cLL`
+To compile the entire interpreter, run `make`
 
-To compile GenerateAST.cpp, run `make GenerateAST`
+To complie GenerateAST.cpp, run
+```
+g++ GenerateAST.cpp -o GenerateAST
+```
+
+To run GenerateAST (Windows specific),
+```
+./GenerateAST.exe "directory for the generated files"
+```
 
 I found test cases and a Makefile for a c++ implementation of Lox [here](https://github.com/the-lambda-way/CppLox/tree/c9d65280108cfd2ce7e42a9d2a7fc09c95c21296/chapter13)
 
