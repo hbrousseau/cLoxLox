@@ -7,6 +7,11 @@ cLL has been tested on Windows 10 and 11 with Microsoft's VS Code. If you would 
 I have submitted a zip file for the Lox interpreter partitioned for each chapter that I have worked through (up until chapter 13, which is the final piece of the Lox puzzle). I attempted to comment throughout all of the chapters what the code was attempting to do and when/where I was finding issues. Up until chapter 13, I ran tests through a REPL to verify the output of each section.
 
 ## Building
+Clone the repository to a location most convient to you.
+```
+git clone https://github.com/hbrousseau/cLoxLox.git
+```
+
 Navigate inside ch13Checkpoint to build the entire project.
 `cd ch13Checkpoint`
 
