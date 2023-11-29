@@ -13,7 +13,9 @@ git clone https://github.com/hbrousseau/cLoxLox.git
 ```
 
 Navigate inside ch13Checkpoint to build the entire project.
-`cd ch13Checkpoint`
+```
+cd ch13Checkpoint
+```
 
 To compile cLL.cpp the program, run `make cLL`
 
