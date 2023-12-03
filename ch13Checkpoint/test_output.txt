@@ -1,0 +1,294 @@
+--- tests/test-statements.lox.expected	2023-12-02 17:30:12.368787300 -0600
++++ -	2023-12-02 18:59:19.835550600 -0600
+@@ -1,3 +1,3 @@
+-one
+-true
+-3.000000
++one
++true
++3.000000
+--- tests/test-statements2.lox.expected	2023-12-02 17:30:12.369787100 -0600
++++ -	2023-12-02 18:59:31.952623800 -0600
+@@ -1,2 +1,2 @@
+-before
+-after
++before
++after
+--- tests/test-statements3.lox.expected	2023-12-02 17:30:12.370787000 -0600
++++ -	2023-12-02 18:59:44.047036600 -0600
+@@ -1 +1 @@
+-nil
++nil
+--- tests/test-statements4.lox.expected	2023-12-02 17:30:12.370787000 -0600
++++ -	2023-12-02 18:59:56.165440000 -0600
+@@ -1 +1 @@
+-3.000000
++3.000000
+--- tests/test-statements5.lox.expected	2023-12-02 17:30:12.371786800 -0600
++++ -	2023-12-02 19:00:08.612834900 -0600
+@@ -1 +1 @@
+-2.000000
++2.000000
+--- tests/test-statements6.lox.expected	2023-12-02 17:30:12.371786800 -0600
++++ -	2023-12-02 19:00:21.484690200 -0600
+@@ -1,9 +1,9 @@
+-inner a
+-outer b
+-global c
+-outer a
+-outer b
+-global c
+-global a
+-global b
+-global c
++inner a
++outer b
++global c
++outer a
++outer b
++global c
++global a
++global b
++global c
+--- tests/test-control-flow.lox.expected	2023-12-02 17:30:12.358787300 -0600
++++ -	2023-12-02 19:00:33.944044800 -0600
+@@ -1,2 +1,2 @@
+-hi
+-yes
++hi
++yes
+--- tests/test-control-flow2.lox.expected	2023-12-02 17:30:12.359787200 -0600
++++ -	2023-12-02 19:00:46.787457300 -0600
+@@ -1,21 +1,21 @@
+-0.000000
+-1.000000
+-1.000000
+-2.000000
+-3.000000
+-5.000000
+-8.000000
+-13.000000
+-21.000000
+-34.000000
+-55.000000
+-89.000000
+-144.000000
+-233.000000
+-377.000000
+-610.000000
+-987.000000
+-1597.000000
+-2584.000000
+-4181.000000
+-6765.000000
++0.000000
++1.000000
++1.000000
++2.000000
++3.000000
++5.000000
++8.000000
++13.000000
++21.000000
++34.000000
++55.000000
++89.000000
++144.000000
++233.000000
++377.000000
++610.000000
++987.000000
++1597.000000
++2584.000000
++4181.000000
++6765.000000
+--- tests/test-functions.lox.expected	2023-12-02 17:30:12.360787000 -0600
++++ -	2023-12-02 19:00:59.252819500 -0600
+@@ -1 +1 @@
+-<fn add>
++<fn add>
+--- tests/test-functions2.lox.expected	2023-12-02 17:30:12.360787000 -0600
++++ -	2023-12-02 19:01:11.648145900 -0600
+@@ -1 +1 @@
+-Hi, Dear Reader!
++Hi, Dear Reader!
+--- tests/test-functions3.lox.expected	2023-12-02 17:30:12.361787200 -0600
++++ -	2023-12-02 19:01:23.775457400 -0600
+@@ -1,20 +1,20 @@
+-0.000000
+-1.000000
+-1.000000
+-2.000000
+-3.000000
+-5.000000
+-8.000000
+-13.000000
+-21.000000
+-34.000000
+-55.000000
+-89.000000
+-144.000000
+-233.000000
+-377.000000
+-610.000000
+-987.000000
+-1597.000000
+-2584.000000
+-4181.000000
++0.000000
++1.000000
++1.000000
++2.000000
++3.000000
++5.000000
++8.000000
++13.000000
++21.000000
++34.000000
++55.000000
++89.000000
++144.000000
++233.000000
++377.000000
++610.000000
++987.000000
++1597.000000
++2584.000000
++4181.000000
+--- tests/test-functions4.lox.expected	2023-12-02 17:30:12.361787200 -0600
++++ -	2023-12-02 19:01:36.453639900 -0600
+@@ -1,2 +1,2 @@
+-1.000000
+-2.000000
++1.000000
++2.000000
+--- tests/test-resolving.lox.expected	2023-12-02 17:30:12.366788400 -0600
++++ -	2023-12-02 19:01:48.660088400 -0600
+@@ -1,2 +1,2 @@
+-global
+-global
++global
++global
+--- tests/test-classes.lox.expected	2023-12-02 17:30:12.351787200 -0600
++++ -	2023-12-02 19:02:00.749119900 -0600
+@@ -1 +1 @@
+-DevonshireCream
++DevonshireCream
+--- tests/test-classes2.lox.expected	2023-12-02 17:30:12.354787200 -0600
++++ -	2023-12-02 19:02:12.834150900 -0600
+@@ -1 +1 @@
+-Bagel instance
++Bagel instance
+--- tests/test-classes3.lox.expected	2023-12-02 17:30:12.354787200 -0600
++++ -	2023-12-02 19:02:24.933063500 -0600
+@@ -1 +1 @@
+-called function with argument
++called function with argument
+--- tests/test-classes4.lox.expected	2023-12-02 17:30:12.355787200 -0600
++++ -	2023-12-02 19:02:37.031784300 -0600
+@@ -1 +1 @@
+-Jane
++Jane
+--- tests/test-classes5.lox.expected	2023-12-02 17:30:12.356786800 -0600
++++ -	2023-12-02 19:02:49.117593200 -0600
+@@ -1 +1 @@
+-Jane
++Jane
+--- tests/test-classes6.lox.expected	2023-12-02 17:30:12.356786800 -0600
++++ -	2023-12-02 19:03:01.197348000 -0600
+@@ -1 +1 @@
+-Crunch crunch crunch!
++Crunch crunch crunch!
+--- tests/test-classes7.lox.expected	2023-12-02 17:30:12.357786800 -0600
++++ -	2023-12-02 19:03:13.286415200 -0600
+@@ -1 +1 @@
+-Egotist instance
++Egotist instance
+--- tests/test-classes8.lox.expected	2023-12-02 17:30:12.357786800 -0600
++++ -	2023-12-02 19:03:25.394386900 -0600
+@@ -1 +1 @@
+-The German chocolate cake is delicious!
++The German chocolate cake is delicious!
+--- tests/test-classes9.lox.expected	2023-12-02 17:30:12.358787300 -0600
++++ -	2023-12-02 19:03:37.500405700 -0600
+@@ -1 +1 @@
+-Thing instance
++Thing instance
+--- tests/test-classes12.lox.expected	2023-12-02 17:30:12.353786800 -0600
++++ -	2023-12-02 19:03:49.617685000 -0600
+@@ -1,3 +1,3 @@
+-Foo instance
+-Foo instance
+-Foo instance
++Foo instance
++Foo instance
++Foo instance
+--- tests/test-inheritance2.lox.expected	2023-12-02 17:30:12.362787200 -0600
++++ -	2023-12-02 19:04:01.702555300 -0600
+@@ -1 +1 @@
+-Fry until golden brown.
++Fry until golden brown.
+--- tests/test-inheritance3.lox.expected	2023-12-02 17:30:12.363787500 -0600
++++ -	2023-12-02 19:04:13.780957300 -0600
+@@ -1,2 +1,2 @@
+-Fry until golden brown.
+-Pipe full of custard and coat with chocolate.
++Fry until golden brown.
++Pipe full of custard and coat with chocolate.
+--- tests/test-inheritance5.lox.expected	2023-12-02 17:30:12.364787600 -0600
++++ -	2023-12-02 19:04:25.858721800 -0600
+@@ -1 +1 @@
+-Method A
++Method A
+--- tests/test-resolving2.lox.expected	2023-12-02 17:30:12.367787700 -0600
++++ -	2023-12-02 19:04:37.943134000 -0600
+@@ -1 +1 @@
+-[line 3] Error at 'a': Can't read local variable in its own initializer.
++[line 3] Error at 'a': Can't read local variable in its own initializer.
+--- tests/test-resolving3.lox.expected	2023-12-02 17:30:12.367787700 -0600
++++ -	2023-12-02 19:04:50.015273600 -0600
+@@ -1 +1 @@
+-[line 3] Error at 'a': Already a variable with this name in this scope.
++[line 3] Error at 'a': Already a variable with this name in this scope.
+--- tests/test-resolving4.lox.expected	2023-12-02 17:30:12.368787300 -0600
++++ -	2023-12-02 19:05:02.107025100 -0600
+@@ -1 +1 @@
+-[line 1] Error at 'return': Can't return from top-level code.
++[line 1] Error at 'return': Can't return from top-level code.
+--- tests/test-classes10.lox.expected	2023-12-02 17:30:12.352787400 -0600
++++ -	2023-12-02 19:05:14.184832700 -0600
+@@ -1 +1 @@
+-[line 1] Error at 'this': Can't use 'this' outside of a class.
++[line 1] Error at 'this': Can't use 'this' outside of a class.
+--- tests/test-classes11.lox.expected	2023-12-02 17:30:12.352787400 -0600
++++ -	2023-12-02 19:05:26.254299000 -0600
+@@ -1 +1 @@
+-[line 2] Error at 'this': Can't use 'this' outside of a class.
++[line 2] Error at 'this': Can't use 'this' outside of a class.
+--- tests/test-classes13.lox.expected	2023-12-02 17:30:12.353786800 -0600
++++ -	2023-12-02 19:05:38.460342700 -0600
+@@ -1 +0,0 @@
+-[line 3] Error at 'return': Can't return a value from an initializer.
+--- tests/test-inheritance.lox.expected	2023-12-02 17:30:12.362787200 -0600
++++ -	2023-12-02 19:05:50.570099200 -0600
+@@ -1,2 +1,2 @@
+-Superclass must be a class.
+-[line 3]
++Superclass must be a class.
++[line 3]
+--- tests/test-inheritance4.lox.expected	2023-12-02 17:30:12.363787500 -0600
++++ -	2023-12-02 19:06:02.681268300 -0600
+@@ -1 +1 @@
+-[line 1] Error at ';': Expect '.' after 'super'.
++[line 1] Error at ';': Expect '.' after 'super'.
+--- tests/test-inheritance6.lox.expected	2023-12-02 17:30:12.365786300 -0600
++++ -	2023-12-02 19:06:14.847687700 -0600
+@@ -1 +1 @@
+-[line 3] Error at 'super': Can't user 'super' in a class with no superclass.
++[line 3] Error at 'super': Can't user 'super' in a class with no superclass.
+--- tests/test-inheritance7.lox.expected	2023-12-02 17:30:12.366788400 -0600
++++ -	2023-12-02 19:06:26.953255200 -0600
+@@ -1 +1 @@
+-[line 1] Error at 'super': Can't user 'super' outside of a class.
++[line 1] Error at 'super': Can't user 'super' outside of a class.
+

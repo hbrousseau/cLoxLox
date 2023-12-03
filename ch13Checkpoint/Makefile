@@ -29,19 +29,22 @@ clean:
 # Include dependencies
 -include $(DEPS)
 
+OUTPUT_FILE := test_output.txt
+
 define make_test
 .PHONY: $(1)
 $(1): cll
 	@echo "testing cLL with $(1).lox ..."
-	@./cll tests/$(1).lox | diff -u --color tests/$(1).lox.expected -;
+	@./cll tests/$(1).lox | diff -u --color tests/$(1).lox.expected - >> $(OUTPUT_FILE);
 endef
 
 define make_test_error
 .PHONY: $(1)
 $(1): cll
 	@echo "testing cLL with $(1).lox ..."
-	@./cll tests/$(1).lox 2>&1 | diff -u --color tests/$(1).lox.expected -;
+	@./cll tests/$(1).lox 2>&1 | diff -u --color tests/$(1).lox.expected - >> $(OUTPUT_FILE);
 endef
+
 
 TESTS = \
 test-statements \
